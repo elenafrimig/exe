@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2. Servos | CREECYL25 </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Elena Frías" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-3"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">CREECYL25</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Introducción</a></li>
+   <li><a href="1_planificacin.html" class="no-ch">1. Planificación</a></li>
+   <li id="active"><a href="2_servos.html" class="active no-ch">2. Servos</a></li>
+   <li><a href="3_programacin.html" class="no-ch">3. Programación</a></li>
+   <li><a href="4_retos_y_personajes.html" class="no-ch">4. Retos y personajes</a></li>
+   <li><a href="5_modelos.html" class="no-ch">5. Modelos</a></li>
+   <li><a href="manos_a_la_obra.html" class="no-ch">¡Manos a la obra!</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="1_planificacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_programacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2. Servos</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id2">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Placa y componentes</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2_129_2" class="block iDevice_content">
+<div class="exe-text"><p>Micro:Bit es una <strong>placa de programació</strong>n muy sencilla que tiene incorporados muchos sensores y actuadores y que permite conectar otros componentes. </p>
+<p><img src="AAAAAmicrobit.jpg" alt="Imagen de placa Micro:Bit" width="329" height="143" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>En nuestro caso, hoy programaremos <strong>un componente llamado servomotor</strong> que nos permite realizar movimientos en la vida real programados por la placa de Micro:Bit. </p>
+<p>Existen dos tipos de servos: </p>
+<ul>
+<li><strong>Servos de rotación continua:</strong> permiten girar de forma completa e ininterrumpida como las aspas de un helicóptero. </li>
+<li><strong>Servos de posición</strong>: nos permiten controlar el movimiento de una posición a otra, medida en ángulos. Por ejemplo, nos permite realizar la apertura de una puerta que reacciona a distintos sensores. </li>
+</ul>
+<p><img src="aaaaaaservomotor.jpg" alt="" width="351" height="235" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p style="text-align: center;"><strong>IMPORTANTE:</strong> Los servos no pueden ser forzados porque se estropean, si quieres conocer en qué posición está tu servo, puedes utilizar <a href="https://makecode.microbit.org/S85415-47518-55029-48333">el siguiente programa. </a></p>
+<p>Además, l<strong>a conexión entre la placa y los servos es importante</strong> porque, aunque es sencilla, puede ocasionar diferentes problemas por los que nuestro robot puede no funcionar como nosotros queremos: </p>
+<ol>
+<li>Los tres cables del servo deben ir conectados a la Micro:Bit, a través de un adaptador o de cables cocodrilo.</li>
+<li>Los tres cables son de color negro rojo y amarillo. 
+<ol>
+<li>El cable negro debe ir al PIN GND (ground) de la Micro:Bit. Esta entrada es la toma de tierra, o negativo y nos permite cerrar el circuito. </li>
+<li>El cable rojo (situado en la posición intermedia) es el de potencia, y debe ir conectado al PIN 3V. </li>
+<li>Por último, el cable amarillo (en el extremo contrario al GND), debe conectarse a la placa en el PIN para el que hayamos hecho la programación (0, 1 o 2).<br /> </li>
+</ol>
+</li>
+</ol>
+<p><img src="aaaaconexioncables.jpg" alt="" width="474" height="275" style="display: block; margin-left: auto; margin-right: auto;" /><strong></strong></p>
+<p><strong>Es importante fijarse bien en que la programación en MakeCode y en los pines coincida para que todo funcione correctamente. </strong></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="1_planificacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_programacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
