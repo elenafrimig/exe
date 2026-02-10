@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>flux</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260210122221SKATER</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260210122221QM08OA</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>3.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>Sesión de construcción de personajes</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>flux</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v0.0.0-nightly-202602100620</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1770716889332</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>page-mlg9687t-5cq8jc461</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Introducción</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mlg9687t-5cq8jc461</odePageId>
+      <odeBlockId>block-1770642653982-hewfr9dts</odeBlockId>
+      <blockName>¡Personajes de leyenda!</blockName>
+      <iconName>activity</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mlg9687t-5cq8jc461</odePageId>
+          <odeBlockId>block-1770642653982-hewfr9dts</odeBlockId>
+          <odeIdeviceId>idevice-1770642653981-29t4scpjw</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En esta sesión crearemos nuestros personajes de leyenda. Unos pequeños seres creados por vosotros que se convertirán en los protagonistas de vuestra historia. </p>
+<p>Para ello necesitaremos: </p>
+<ul>
+<li>Bloques de Lego o cartón.</li>
+<li>Servomotores (rotación continua o de posición)</li>
+<li>Placa Micro:Bit</li>
+<li>Cables</li>
+</ul>
+<p>Trabajaréis por equipos y necesitaréis seguir una serie de pasos que se indicarán en esta página web. </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770642653981-29t4scpjw","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En esta sesión crearemos nuestros personajes de leyenda. Unos pequeños seres creados por vosotros que se convertirán en los protagonistas de vuestra historia. </p>\n<p>Para ello necesitaremos: </p>\n<ul>\n<li>Bloques de Lego o cartón.</li>\n<li>Servomotores (rotación continua o de posición)</li>\n<li>Placa Micro:Bit</li>\n<li>Cables</li>\n</ul>\n<p>Trabajaréis por equipos y necesitaréis seguir una serie de pasos que se indicarán en esta página web. </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>identifier</key>
+              <value></value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mlg9687u-gv1sfbsjs</odePageId>
+  <odeParentPageId>page-mlg9687t-5cq8jc461</odeParentPageId>
+  <pageName>1. Planificación</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>1. Planificación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>1. Planificación</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mlg9687u-gv1sfbsjs</odePageId>
+      <odeBlockId>block-1770642913774-hd32vfe0e</odeBlockId>
+      <blockName>¿Qué necesito?</blockName>
+      <iconName>discuss</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mlg9687u-gv1sfbsjs</odePageId>
+          <odeBlockId>block-1770642913774-hd32vfe0e</odeBlockId>
+          <odeIdeviceId>idevice-1770642913773-bg7s2vn8m</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para aseguraros de que podéis realizar vuestro personaje, tenéis que <strong>planificar los materiales disponibles</strong>. A cada grupo se os entregará una placa de Micro:Bit, un par de servos y los cables necesarios para trabajar con ello. También contaréis con diferentes bloques de Lego para ayudaros con la construcción y materiales reciclados como cartón. </p>
+<p>Puedes seguir varios modelos, como el propuesto por tu profesora o ser más creativo y utilizar diferentes engranajes y movimientos. </p>
+<p>Lo más importante es la planificación. Como los ingenieros <strong>antes de realizar un proyecto, deberéis dibujar y crear una lista de las piezas necesarias, las instrucciones para llevarlo a cabo y los encargados de cada tarea. </strong></p>
+<p><span style="text-decoration: underline;">Una vez realizada, la profesora os dará los posibles ajustes al proyecto y podréis empezar a construirlo. </span></p>
+<p>Para la construcción deberéis tener en cuenta la programación de la Placa Micro:Bit que encontraréis en el paso dos: servos. </p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770642913773-bg7s2vn8m","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para aseguraros de que podéis realizar vuestro personaje, tenéis que <strong>planificar los materiales disponibles</strong>. A cada grupo se os entregará una placa de Micro:Bit, un par de servos y los cables necesarios para trabajar con ello. También contaréis con diferentes bloques de Lego para ayudaros con la construcción y materiales reciclados como cartón. </p>\n<p>Puedes seguir varios modelos, como el propuesto por tu profesora o ser más creativo y utilizar diferentes engranajes y movimientos. </p>\n<p>Lo más importante es la planificación. Como los ingenieros <strong>antes de realizar un proyecto, deberéis dibujar y crear una lista de las piezas necesarias, las instrucciones para llevarlo a cabo y los encargados de cada tarea. </strong></p>\n<p><span style=\"text-decoration: underline;\">Una vez realizada, la profesora os dará los posibles ajustes al proyecto y podréis empezar a construirlo. </span></p>\n<p>Para la construcción deberéis tener en cuenta la programación de la Placa Micro:Bit que encontraréis en el paso dos: servos. </p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>identifier</key>
+              <value></value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mlg9687u-xa3atyza3</odePageId>
+  <odeParentPageId>page-mlg9687t-5cq8jc461</odeParentPageId>
+  <pageName>2. Servos</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>2. Servos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>2. Servos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mlg9687u-xa3atyza3</odePageId>
+      <odeBlockId>block-1770643568272-6o7a84532</odeBlockId>
+      <blockName>Placa y componentes</blockName>
+      <iconName>interactive</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mlg9687u-xa3atyza3</odePageId>
+          <odeBlockId>block-1770643568272-6o7a84532</odeBlockId>
+          <odeIdeviceId>idevice-1770643568272-bp1eb8ce9</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Micro:Bit es una <strong>placa de programación</strong> muy sencilla que tiene incorporados muchos sensores y actuadores y que permite conectar otros componentes. </p>
+<p><img src="{{context_path}}/content/resources/Captura de pantalla 2026-02-10 083919.jpg" width="329" height="143" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>En nuestro caso, hoy programaremos u<strong>n componente llamado servomotor</strong> que nos permite realizar movimientos en la vida real programados por la placa de Micro:Bit. </p>
+<p>Existen dos tipos de servos: </p>
+<ul>
+<li><strong>Servos de rotación continua:</strong> permiten girar de forma completa e ininterrumpida como las aspas de un helicóptero. </li>
+<li><strong>Servos de posición:</strong> nos permiten controlar el movimiento de una posición a otra, medida en ángulos. Por ejemplo, nos permite realizar la apertura de una puerta que reacciona a distintos sensores. </li>
+</ul>
+<p><img src="{{context_path}}/content/resources/Captura de pantalla 2026-02-10 084218.jpg" width="351" height="235" alt="Imagen de Servomotor" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><br /></p>
+<p style="text-align: center;"><strong>IMPORTANTE</strong>: Los servos no pueden ser forzados porque se estropean, si quieres conocer en qué posición está tu servo, puedes utilizar el <a href="https://makecode.microbit.org/S85415-47518-55029-48333" title="Programa MakeCode controlador de posicionamiento" target="_blank" id="link_3" rel="noopener">siguiente programa.</a> </p>
+<p>Además, la <strong>conexión entre la placa y los servos es importante</strong> porque, aunque es sencilla, puede ocasionar diferentes problemas por los que nuestro robot puede no funcionar como nosotros queremos: </p>
+<ol>
+<li>Los tres cables del servo deben ir conectados a la Micro:Bit, a través de un adaptador o de cables cocodrilo.</li>
+<li>Los tres cables son de color negro rojo y amarillo. 
+<ol>
+<li>El <span style="text-decoration: underline;">cable negro</span> debe ir al <span style="text-decoration: underline;">PIN GND</span> (ground) de la Micro:Bit. Esta entrada es la toma de tierra, o negativo y nos permite cerrar el circuito. </li>
+<li>El <span style="text-decoration: underline;">cable rojo</span> (situado en la posición intermedia) es el de potencia, y debe ir conectado al<span style="text-decoration: underline;"> PIN 3V.</span> </li>
+<li>Por último, el <span style="text-decoration: underline;">cable amarillo</span> (en el extremo contrario al GND), debe conectarse a la placa en el PIN para el que hayamos hecho la programación <span style="text-decoration: underline;">(0, 1 o 2)</span>.</li>
+</ol>
+</li>
+</ol>
+<p><img src="{{context_path}}/content/resources/Captura de pantalla 2026-02-10 081155.jpg" title="Conexión servo - Micro:Bit" width="474" height="275" alt="Imagen con muestra de cableado" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><strong>Es importante fijarse bien en que la programación en MakeCode y en los pines coincida para que todo funcione correctamente.</strong> </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770643568272-bp1eb8ce9","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Micro:Bit es una <strong>placa de programación</strong> muy sencilla que tiene incorporados muchos sensores y actuadores y que permite conectar otros componentes. </p>\n<p><img src=\"{{context_path}}/content/resources/Captura de pantalla 2026-02-10 083919.jpg\" width=\"329\" height=\"143\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>\n<p>En nuestro caso, hoy programaremos u<strong>n componente llamado servomotor</strong> que nos permite realizar movimientos en la vida real programados por la placa de Micro:Bit. </p>\n<p>Existen dos tipos de servos: </p>\n<ul>\n<li><strong>Servos de rotación continua:</strong> permiten girar de forma completa e ininterrumpida como las aspas de un helicóptero. </li>\n<li><strong>Servos de posición:</strong> nos permiten controlar el movimiento de una posición a otra, medida en ángulos. Por ejemplo, nos permite realizar la apertura de una puerta que reacciona a distintos sensores. </li>\n</ul>\n<p><img src=\"{{context_path}}/content/resources/Captura de pantalla 2026-02-10 084218.jpg\" width=\"351\" height=\"235\" alt=\"Imagen de Servomotor\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>\n<p><br /></p>\n<p style=\"text-align: center;\"><strong>IMPORTANTE</strong>: Los servos no pueden ser forzados porque se estropean, si quieres conocer en qué posición está tu servo, puedes utilizar el <a href=\"https://makecode.microbit.org/S85415-47518-55029-48333\" title=\"Programa MakeCode controlador de posicionamiento\" target=\"_blank\" id=\"link_3\" rel=\"noopener\">siguiente programa.</a> </p>\n<p>Además, la <strong>conexión entre la placa y los servos es importante</strong> porque, aunque es sencilla, puede ocasionar diferentes problemas por los que nuestro robot puede no funcionar como nosotros queremos: </p>\n<ol>\n<li>Los tres cables del servo deben ir conectados a la Micro:Bit, a través de un adaptador o de cables cocodrilo.</li>\n<li>Los tres cables son de color negro rojo y amarillo. \n<ol>\n<li>El <span style=\"text-decoration: underline;\">cable negro</span> debe ir al <span style=\"text-decoration: underline;\">PIN GND</span> (ground) de la Micro:Bit. Esta entrada es la toma de tierra, o negativo y nos permite cerrar el circuito. </li>\n<li>El <span style=\"text-decoration: underline;\">cable rojo</span> (situado en la posición intermedia) es el de potencia, y debe ir conectado al<span style=\"text-decoration: underline;\"> PIN 3V.</span> </li>\n<li>Por último, el <span style=\"text-decoration: underline;\">cable amarillo</span> (en el extremo contrario al GND), debe conectarse a la placa en el PIN para el que hayamos hecho la programación <span style=\"text-decoration: underline;\">(0, 1 o 2)</span>.</li>\n</ol>\n</li>\n</ol>\n<p><img src=\"{{context_path}}/content/resources/Captura de pantalla 2026-02-10 081155.jpg\" title=\"Conexión servo - Micro:Bit\" width=\"474\" height=\"275\" alt=\"Imagen con muestra de cableado\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>\n<p><strong>Es importante fijarse bien en que la programación en MakeCode y en los pines coincida para que todo funcione correctamente.</strong> </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>identifier</key>
+              <value></value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1770707635299-n8qzi2lze</odePageId>
+  <odeParentPageId>page-mlg9687t-5cq8jc461</odeParentPageId>
+  <pageName>3. Programación</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>3. Programación</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1770707635299-n8qzi2lze</odePageId>
+      <odeBlockId>block-1770707635299-ca2ghrywv</odeBlockId>
+      <blockName>Programación</blockName>
+      <iconName>think</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770707635299-n8qzi2lze</odePageId>
+          <odeBlockId>block-1770707635299-ca2ghrywv</odeBlockId>
+          <odeIdeviceId>idevice-1770707635299-agcbnjwk4</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">Ya conocemos la placa y los componentes externos que vamos a utilizar, es hora de darle órdenes a nuestra placa o programarla. </p>
+<p style="text-align: justify;">Vamos a utilizar la programación por bloques en el entorno de MakeCode. Podéis utilizarla sin registro, pero si queréis guardar los proyectos en vuestra cuenta, podéis utilizar vuestra cuenta de @educacyl, ya que tenéis acceso seguro y gratuito a este entorno de programación. </p>
+<p style="text-align: justify;">Para acceder a la página web, podéis clicar en el siguiente enlace: <a href="https://makecode.microbit.org/#editor" target="_blank" id="link_0" onclick="https://makecode.microbit.org/#editor" rel="noopener">acceso a MakeCode</a>. </p>
+<p style="text-align: justify;">Si habéis trabajado antes programación por bloques, veréis que la interfaz o estructura de la página es algo parecida a otras páginas como Scratch o Code.org. </p>
+<p style="text-align: justify;"><br /></p>
+<figure class="exe-figure" style="width: 1851px; text-align: justify;">
+<div class="figcaption header" style="text-align: center;"><strong>Interfaz de MakeCode</strong></div>
+<img src="{{context_path}}/content/resources/Captura de pantalla 2026-02-10 081910.jpg" title="Interfaz de MakeCode" width="1851" height="952" alt="Captura de pantalla de la interfaz de MakeCode: entorno de programación por bloques para la placa Micro:Bit" style="display: block; margin-left: auto; margin-right: auto;" />
+<figcaption class="figcaption"><span class="author">Captura de pantalla realizada por Elena Frías</span>. <span class="title"><em>Interfaz de MakeCode</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/" class="license" target="_blank" rel="noopener">CC BY-NC-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p style="text-align: justify;">Con las indicaciones iniciales que te de tu profesora sobre el uso de MakeCode será suficiente, pero si quieres seguir aprendiendo puedes acceder a un tutorial en el <a href="https://libros.catedu.es/books/microbit/page/el-entorno-de-trabajo-de-makecode" id="link_1">siguiente enlace.</a></p>
+<p style="text-align: justify;">También puedes acceder a proyectos y su código en la siguiente página de Micro:Bit: <a href="https://microbit.org/es-es/projects/make-it-code-it/" id="link_2">acceso a MakeIt:CodeIt </a></p>
+<p style="text-align: justify;">En el caso de programación de los servos necesitarás además una extensión para los bloques específicos. Sigue las indicaciones de tu profesora. </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770707635299-agcbnjwk4","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">Ya conocemos la placa y los componentes externos que vamos a utilizar, es hora de darle órdenes a nuestra placa o programarla. </p>\n<p style=\"text-align: justify;\">Vamos a utilizar la programación por bloques en el entorno de MakeCode. Podéis utilizarla sin registro, pero si queréis guardar los proyectos en vuestra cuenta, podéis utilizar vuestra cuenta de @educacyl, ya que tenéis acceso seguro y gratuito a este entorno de programación. </p>\n<p style=\"text-align: justify;\">Para acceder a la página web, podéis clicar en el siguiente enlace: <a href=\"https://makecode.microbit.org/#editor\" target=\"_blank\" id=\"link_0\" onclick=\"https://makecode.microbit.org/#editor\" rel=\"noopener\">acceso a MakeCode</a>. </p>\n<p style=\"text-align: justify;\">Si habéis trabajado antes programación por bloques, veréis que la interfaz o estructura de la página es algo parecida a otras páginas como Scratch o Code.org. </p>\n<p style=\"text-align: justify;\"><br /></p>\n<figure class=\"exe-figure\" style=\"width: 1851px; text-align: justify;\">\n<div class=\"figcaption header\" style=\"text-align: center;\"><strong>Interfaz de MakeCode</strong></div>\n<img src=\"{{context_path}}/content/resources/Captura de pantalla 2026-02-10 081910.jpg\" title=\"Interfaz de MakeCode\" width=\"1851\" height=\"952\" alt=\"Captura de pantalla de la interfaz de MakeCode: entorno de programación por bloques para la placa Micro:Bit\" style=\"display: block; margin-left: auto; margin-right: auto;\" />\n<figcaption class=\"figcaption\"><span class=\"author\">Captura de pantalla realizada por Elena Frías</span>. <span class=\"title\"><em>Interfaz de MakeCode</em></span> <span class=\"license\"><span class=\"sep\">(</span><a href=\"http://creativecommons.org/licenses/\" class=\"license\" target=\"_blank\" rel=\"noopener\">CC BY-NC-SA</a><span class=\"sep\">)</span></span></figcaption>\n</figure>\n<p style=\"text-align: justify;\">Con las indicaciones iniciales que te de tu profesora sobre el uso de MakeCode será suficiente, pero si quieres seguir aprendiendo puedes acceder a un tutorial en el <a href=\"https://libros.catedu.es/books/microbit/page/el-entorno-de-trabajo-de-makecode\" id=\"link_1\">siguiente enlace.</a></p>\n<p style=\"text-align: justify;\">También puedes acceder a proyectos y su código en la siguiente página de Micro:Bit: <a href=\"https://microbit.org/es-es/projects/make-it-code-it/\" id=\"link_2\">acceso a MakeIt:CodeIt </a></p>\n<p style=\"text-align: justify;\">En el caso de programación de los servos necesitarás además una extensión para los bloques específicos. Sigue las indicaciones de tu profesora. </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>identifier</key>
+              <value></value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1770707635299-n8qzi2lze</odePageId>
+      <odeBlockId>block-1770709429234-pm4gv8kjl</odeBlockId>
+      <blockName>Sensores de Micro:Bit</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770707635299-n8qzi2lze</odePageId>
+          <odeBlockId>block-1770709429234-pm4gv8kjl</odeBlockId>
+          <odeIdeviceId>idevice-1770709429233-qrxw2kdrq</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para <strong>programar nuestros motores </strong>y dar vida a nuestros personajes podemos <strong>utilizar los diferentes sensores </strong>que tiene la placa incorporados. De esta manera, podemos acercarnos aún más a la programación en la vida real por ejemplo, creando un ventilador que se mueva solo cuando hace mucho calor o una puerta que se abra cuando detecte un sonido alto. </p>
+<p>Los diferentes sensores se encuentran en los <strong>bloques rosas</strong> (entrada) y son: </p>
+<ul>
+<li><strong>Temperatura:</strong> el robot reacciona ante cambios de temperatura. </li>
+<li><strong>Luz: </strong>se puede programar un robot que responda a la luz solar. Por ejemplo, una caja secreta que nos avise con una alarma cuando se abra. </li>
+<li><strong>Sonido</strong>: podemos hacer que una puerta se abra cuando se oiga un sonido fuerte y que se cierre una vez hayan pasado 5 o 10 segundos. </li>
+<li><strong>Acelerómetro:</strong> podemos hacer que nuestro robot se mueva cuando la Micro:Bit se agite o cambie de posición. </li>
+</ul>
+<p>Ahora piensa en tu robot y en lo que quieres conseguir con el para que se convierta en el personaje o protagonista de tu historia. También<span style="text-decoration: underline;"> si necesitas servos de rotación continua (que funcionen siempre) o de posición (que solo se muevan de forma controlada). </span></p>
+<p>Por último determina que materiales necesitas para incluirlos dentro del dibujo y las instrucciones de construcción. Cuando tengas todo preparado para empezar a construir, consulta a tu profesora y ponte manos a la obra. </p>
+<p>Para inspirarte, puedes consultar los siguientes ejemplos en el <strong>apartado 4: modelos. </strong></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770709429233-qrxw2kdrq","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para <strong>programar nuestros motores </strong>y dar vida a nuestros personajes podemos <strong>utilizar los diferentes sensores </strong>que tiene la placa incorporados. De esta manera, podemos acercarnos aún más a la programación en la vida real por ejemplo, creando un ventilador que se mueva solo cuando hace mucho calor o una puerta que se abra cuando detecte un sonido alto. </p>\n<p>Los diferentes sensores se encuentran en los <strong>bloques rosas</strong> (entrada) y son: </p>\n<ul>\n<li><strong>Temperatura:</strong> el robot reacciona ante cambios de temperatura. </li>\n<li><strong>Luz: </strong>se puede programar un robot que responda a la luz solar. Por ejemplo, una caja secreta que nos avise con una alarma cuando se abra. </li>\n<li><strong>Sonido</strong>: podemos hacer que una puerta se abra cuando se oiga un sonido fuerte y que se cierre una vez hayan pasado 5 o 10 segundos. </li>\n<li><strong>Acelerómetro:</strong> podemos hacer que nuestro robot se mueva cuando la Micro:Bit se agite o cambie de posición. </li>\n</ul>\n<p>Ahora piensa en tu robot y en lo que quieres conseguir con el para que se convierta en el personaje o protagonista de tu historia. También<span style=\"text-decoration: underline;\"> si necesitas servos de rotación continua (que funcionen siempre) o de posición (que solo se muevan de forma controlada). </span></p>\n<p>Por último determina que materiales necesitas para incluirlos dentro del dibujo y las instrucciones de construcción. Cuando tengas todo preparado para empezar a construir, consulta a tu profesora y ponte manos a la obra. </p>\n<p>Para inspirarte, puedes consultar los siguientes ejemplos en el <strong>apartado 4: modelos. </strong></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+  <odeParentPageId>page-mlg9687t-5cq8jc461</odeParentPageId>
+  <pageName>4. Modelos</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>4. Modelos</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+      <odeBlockId>block-1770710015224-n8galq1s0</odeBlockId>
+      <blockName>Programación</blockName>
+      <iconName>play</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+          <odeBlockId>block-1770710015224-n8galq1s0</odeBlockId>
+          <odeIdeviceId>idevice-1770710015224-b2wt7fo48</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En esta página vamos a ver varios modelos que reaccionan al sonido para iniciar y continuar el movimiento. Sólo son ejemplos, por lo que puedes fijarte en ellos, utilizarlos igual o probar con otros sensores como la temperatura o la luz. </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770710015224-b2wt7fo48","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En esta página vamos a ver varios modelos que reaccionan al sonido para iniciar y continuar el movimiento. Sólo son ejemplos, por lo que puedes fijarte en ellos, utilizarlos igual o probar con otros sensores como la temperatura o la luz. </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>identifier</key>
+              <value></value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+      <odeBlockId>block-1770710015224-xd8xi4rwb</odeBlockId>
+      <blockName>Servo continuo</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+          <odeBlockId>block-1770710015224-xd8xi4rwb</odeBlockId>
+          <odeIdeviceId>idevice-1770710015224-z4oowbl35</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Nuestro servo va a reaccionar al sonido. Siempre que haya un ruido de fondo, el robot se moverá. </p>
+<p>Sin embargo, para mejorar su control hemos utilizado diferentes condicionales: </p>
+<ul>
+<li>Si el nivel de ruido es bajo se moverá más lento y en un sentido de giro</li>
+<li style="text-align: left;">Si el nivel es intermedio se moverá algo más rápido y en otro sentido</li>
+<li>Si el nivel de ruido es alto se moverá a velocidad máxima.</li>
+</ul>
+<p>Recuerda además, que para tener un elemento de seguridad programaremos los botones para que los servos se paren de inmediato.</p>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 300px; text-align: center;">
+<figcaption class="figcaption header"><strong>Robot Micro:Bit con funcionamiento por sonido. </strong></figcaption>
+<video width="300" height="150" controls="controls">
+<source src="{{context_path}}/content/resources/Robot Servo continuo.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+<p> </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770710015224-z4oowbl35","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Nuestro servo va a reaccionar al sonido. Siempre que haya un ruido de fondo, el robot se moverá. </p>\n<p>Sin embargo, para mejorar su control hemos utilizado diferentes condicionales: </p>\n<ul>\n<li>Si el nivel de ruido es bajo se moverá más lento y en un sentido de giro</li>\n<li style=\"text-align: left;\">Si el nivel es intermedio se moverá algo más rápido y en otro sentido</li>\n<li>Si el nivel de ruido es alto se moverá a velocidad máxima.</li>\n</ul>\n<p>Recuerda además, que para tener un elemento de seguridad programaremos los botones para que los servos se paren de inmediato.</p>\n<figure class=\"exe-figure exe-media position-center license-CC-BY-NC-SA\" style=\"width: 300px; text-align: center;\">\n<figcaption class=\"figcaption header\"><strong>Robot Micro:Bit con funcionamiento por sonido. </strong></figcaption>\n<video width=\"300\" height=\"150\" controls=\"controls\">\n<source src=\"{{context_path}}/content/resources/Robot Servo continuo.mp4\" /></video>\n<figcaption class=\"figcaption\"><span class=\"license\"><span class=\"tit\">Licencia: </span><a href=\"http://creativecommons.org/licenses/\" rel=\"license nofollow noopener\" target=\"_blank\" title=\"Creative Commons BY-NC-SA\">CC BY-NC-SA</a></span></figcaption>\n</figure>\n<p> </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+      <odeBlockId>block-1770714835142-42ro5pw1e</odeBlockId>
+      <blockName>Servo posicional</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+          <odeBlockId>block-1770714835142-42ro5pw1e</odeBlockId>
+          <odeIdeviceId>idevice-1770714835141-aw9ipzsqp</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En este caso, utilizaremos las mismas condiciones del servo continuo pero utilizando el posicional, por lo que no girará de forma ininterrumpida, si no entre las posiciones que le indiquemos (en grados). </p>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 300px; text-align: center;" id="fig_ras4pvp9m">
+<figcaption class="figcaption header"><strong>Robot Micro:Bit posicionamiento funcionamiento por sonido</strong></figcaption>
+<video width="300" height="150" controls="controls" data-mce-fragment="1">
+<source src="{{context_path}}/content/resources/Servo posicional sonido.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770714835141-aw9ipzsqp","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En este caso, utilizaremos las mismas condiciones del servo continuo pero utilizando el posicional, por lo que no girará de forma ininterrumpida, si no entre las posiciones que le indiquemos (en grados). </p>\n<figure class=\"exe-figure exe-media position-center license-CC-BY-NC-SA\" style=\"width: 300px; text-align: center;\" id=\"fig_ras4pvp9m\">\n<figcaption class=\"figcaption header\"><strong>Robot Micro:Bit posicionamiento funcionamiento por sonido</strong></figcaption>\n<video width=\"300\" height=\"150\" controls=\"controls\" data-mce-fragment=\"1\">\n<source src=\"{{context_path}}/content/resources/Servo posicional sonido.mp4\" /></video>\n<figcaption class=\"figcaption\"><span class=\"license\"><span class=\"tit\">Licencia: </span><a href=\"http://creativecommons.org/licenses/\" rel=\"license nofollow noopener\" target=\"_blank\" title=\"Creative Commons BY-NC-SA\">CC BY-NC-SA</a></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+      <odeBlockId>block-1770715087121-hsd721ped</odeBlockId>
+      <blockName>Apertura de puerta por sonido</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+          <odeBlockId>block-1770715087121-hsd721ped</odeBlockId>
+          <odeIdeviceId>idevice-1770715087121-dvciiwbgz</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para programar este robot, utilizaremos un servo posicional y los sensores de sonido. </p>
+<ul>
+<li>Deberemos programar apertura completa cuando detecte el sonido alto con una espera de 5 segundos.</li>
+<li>Programaremos cierre completo cuando el sonido detectado sea bajo.  </li>
+<li>Una C de cerrado y A de abierto deben aparecer en la matriz de LEDs para indicar la posición de la puerta. </li>
+</ul>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 300px; text-align: center;" id="fig_mmo1yrwq1">
+<figcaption class="figcaption header"><strong>Apertura de puerta por sonido</strong></figcaption>
+<video width="300" height="150" controls="controls" data-mce-fragment="1">
+<source src="{{context_path}}/content/resources/Robot puerta sonido.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770715087121-dvciiwbgz","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para programar este robot, utilizaremos un servo posicional y los sensores de sonido. </p>\n<ul>\n<li>Deberemos programar apertura completa cuando detecte el sonido alto con una espera de 5 segundos.</li>\n<li>Programaremos cierre completo cuando el sonido detectado sea bajo.  </li>\n<li>Una C de cerrado y A de abierto deben aparecer en la matriz de LEDs para indicar la posición de la puerta. </li>\n</ul>\n<figure class=\"exe-figure exe-media position-center license-CC-BY-NC-SA\" style=\"width: 300px; text-align: center;\" id=\"fig_mmo1yrwq1\">\n<figcaption class=\"figcaption header\"><strong>Apertura de puerta por sonido</strong></figcaption>\n<video width=\"300\" height=\"150\" controls=\"controls\" data-mce-fragment=\"1\">\n<source src=\"{{context_path}}/content/resources/Robot puerta sonido.mp4\" /></video>\n<figcaption class=\"figcaption\"><span class=\"license\"><span class=\"tit\">Licencia: </span><a href=\"http://creativecommons.org/licenses/\" rel=\"license nofollow noopener\" target=\"_blank\" title=\"Creative Commons BY-NC-SA\">CC BY-NC-SA</a></span></figcaption>\n</figure>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+      <odeBlockId>block-1770715431974-twm8u1a5a</odeBlockId>
+      <blockName>Construcción de robots</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770710015224-e1m6kcj3e</odePageId>
+          <odeBlockId>block-1770715431974-twm8u1a5a</odeBlockId>
+          <odeIdeviceId>idevice-1770715431974-jrqa17cy0</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Los servos pueden dar movimiento a nuestro robot construido de muchos materiales. </p>
+<p>En este caso, puedes ver dos robots que funcionan con servos, construidos con piezas de Lego y con cartón.  </p>
+<ul>
+<li><strong>Robots de Lego</strong></li>
+</ul>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 600px;">
+<figcaption class="figcaption header"><strong>Robot con Lego y Micro:Bit</strong></figcaption>
+<video width="600" height="300" controls="controls">
+<source src="{{context_path}}/content/resources/Robot Legos sonido.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+<p><br /></p>
+<ul>
+<li><strong>Robots con cartón</strong>, mira en esta página: </li>
+</ul>
+<p><iframe width="560" height="314" src="https://www.youtube.com/embed/Le7o3ZBz7Gk?si=LjZJ1d5wwxfwdnWv" allowfullscreen="allowfullscreen"></iframe></p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770715431974-jrqa17cy0","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Los servos pueden dar movimiento a nuestro robot construido de muchos materiales. </p>\n<p>En este caso, puedes ver dos robots que funcionan con servos, construidos con piezas de Lego y con cartón.  </p>\n<ul>\n<li><strong>Robots de Lego</strong></li>\n</ul>\n<figure class=\"exe-figure exe-media position-center license-CC-BY-NC-SA\" style=\"width: 600px;\">\n<figcaption class=\"figcaption header\"><strong>Robot con Lego y Micro:Bit</strong></figcaption>\n<video width=\"600\" height=\"300\" controls=\"controls\">\n<source src=\"{{context_path}}/content/resources/Robot Legos sonido.mp4\" /></video>\n<figcaption class=\"figcaption\"><span class=\"license\"><span class=\"tit\">Licencia: </span><a href=\"http://creativecommons.org/licenses/\" rel=\"license nofollow noopener\" target=\"_blank\" title=\"Creative Commons BY-NC-SA\">CC BY-NC-SA</a></span></figcaption>\n</figure>\n<p><br /></p>\n<ul>\n<li><strong>Robots con cartón</strong>, mira en esta página: </li>\n</ul>\n<p><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/Le7o3ZBz7Gk?si=LjZJ1d5wwxfwdnWv\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1770720213180-cbrchjm7l</odePageId>
+  <odeParentPageId>page-mlg9687t-5cq8jc461</odeParentPageId>
+  <pageName>5. Retos y personajes</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>5. Retos y personajes</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>5. Retos y personajes</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleHtml</key>
+      <value></value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>5. Retos y personajes</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>description</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1770720213180-cbrchjm7l</odePageId>
+      <odeBlockId>block-1770720213180-7zatkqux9</odeBlockId>
+      <blockName>Programación</blockName>
+      <iconName>play</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770720213180-cbrchjm7l</odePageId>
+          <odeBlockId>block-1770720213180-7zatkqux9</odeBlockId>
+          <odeIdeviceId>idevice-1770720213180-mzcaphpnu</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En esta página aparecen diferentes ideas de personajes y retos que deben ir cumpliendo vuestros personajes, por diferentes niveles de dificultad. </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770720213180-mzcaphpnu","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En esta página aparecen diferentes ideas de personajes y retos que deben ir cumpliendo vuestros personajes, por diferentes niveles de dificultad. </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>identifier</key>
+              <value></value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1770720213180-cbrchjm7l</odePageId>
+      <odeBlockId>block-1770720213180-240a0ody1</odeBlockId>
+      <blockName>Tipos de personajes</blockName>
+      <iconName>perform</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770720213180-cbrchjm7l</odePageId>
+          <odeBlockId>block-1770720213180-240a0ody1</odeBlockId>
+          <odeIdeviceId>idevice-1770720213180-0fm6ri1ql</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Algunas de las ideas de construcción de personajes pueden ser las siguientes:</p>
+<ul>
+<li>El <strong>Guardián del Campo Grande</strong> → un robot-animal (pavo real, búho, ardilla mágica)</li>
+<li>El <strong>Guardián del Pisuerga</strong> → un robot acuático simbolizado con ruedas azules y forma de barco/pez mítico</li>
+<li>El <strong>Guardián de la Catedral</strong> → un robot-caballero o criatura alada</li>
+<li>El<strong> Guardián de la Plaza Mayor</strong> → un mensajero con forma de carruaje o vehículo antiguo</li>
+<li>El <strong>Guardián del Archivo General</strong> → un dispositivo que “escanea” mensajes (luces + sonido)</li>
+<li>El <strong>Guardián de la Plaza de Zorrilla</strong> → un dispositivo que abre y cierra las puertas de la plaza</li>
+</ul>
+<p><img src="{{context_path}}/content/resources/Captura de pantalla 2026-02-10 121035.jpg" width="439" height="406" alt="Cartas de personajes" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770720213180-0fm6ri1ql","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Algunas de las ideas de construcción de personajes pueden ser las siguientes:</p>\n<ul>\n<li>El <strong>Guardián del Campo Grande</strong> → un robot-animal (pavo real, búho, ardilla mágica)</li>\n<li>El <strong>Guardián del Pisuerga</strong> → un robot acuático simbolizado con ruedas azules y forma de barco/pez mítico</li>\n<li>El <strong>Guardián de la Catedral</strong> → un robot-caballero o criatura alada</li>\n<li>El<strong> Guardián de la Plaza Mayor</strong> → un mensajero con forma de carruaje o vehículo antiguo</li>\n<li>El <strong>Guardián del Archivo General</strong> → un dispositivo que “escanea” mensajes (luces + sonido)</li>\n<li>El <strong>Guardián de la Plaza de Zorrilla</strong> → un dispositivo que abre y cierra las puertas de la plaza</li>\n</ul>\n<p><img src=\"{{context_path}}/content/resources/Captura de pantalla 2026-02-10 121035.jpg\" width=\"439\" height=\"406\" alt=\"Cartas de personajes\" style=\"display: block; margin-left: auto; margin-right: auto;\" /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1770720213180-cbrchjm7l</odePageId>
+      <odeBlockId>block-1770720213180-3iftu4jn5</odeBlockId>
+      <blockName>Retos y niveles de personajes</blockName>
+      <iconName>sport</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770720213180-cbrchjm7l</odePageId>
+          <odeBlockId>block-1770720213180-3iftu4jn5</odeBlockId>
+          <odeIdeviceId>idevice-1770720213180-umueesd5w</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Nivel 1:</strong> Despertar</p>
+<ul>
+<li>Programar que el robot que se mueva.</li>
+<li>Añadir animaciones en la pantalla LED</li>
+<li>Crear una “secuencia de activación” (iconos + movimiento)</li>
+</ul>
+<p><strong>Nivel 2: </strong>Primera misión</p>
+<ul>
+<li>Hacer que el Guardián responda a entradas A/B</li>
+<li>Añadir luces como señales secreta</li>
+</ul>
+<p><strong>Nivel 3</strong>: Guardianes avanzados</p>
+<ul>
+<li>Programar que los robots se comuniquen por radio</li>
+<li>Diseñar “personalidades” con estados (modo alerta, modo descanso)</li>
+<li>Crear una coreografía o movimiento simbólico que cuente algo de la leyenda</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770720213180-umueesd5w","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Nivel 1:</strong> Despertar</p>\n<ul>\n<li>Programar que el robot que se mueva.</li>\n<li>Añadir animaciones en la pantalla LED</li>\n<li>Crear una “secuencia de activación” (iconos + movimiento)</li>\n</ul>\n<p><strong>Nivel 2: </strong>Primera misión</p>\n<ul>\n<li>Hacer que el Guardián responda a entradas A/B</li>\n<li>Añadir luces como señales secreta</li>\n</ul>\n<p><strong>Nivel 3</strong>: Guardianes avanzados</p>\n<ul>\n<li>Programar que los robots se comuniquen por radio</li>\n<li>Diseñar “personalidades” con estados (modo alerta, modo descanso)</li>\n<li>Crear una coreografía o movimiento simbólico que cuente algo de la leyenda</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1770716536802-6guzu2i3w</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>¡Manos a la obra!</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>¡Manos a la obra!</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1770716536802-6guzu2i3w</odePageId>
+      <odeBlockId>block-1770716540370-hdfa8g09u</odeBlockId>
+      <blockName>Diario de aprendizaje</blockName>
+      <iconName>gallery</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>identifier</key>
+          <value></value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1770716536802-6guzu2i3w</odePageId>
+          <odeBlockId>block-1770716540370-hdfa8g09u</odeBlockId>
+          <odeIdeviceId>idevice-1770716540370-o5uml070x</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>En este apartado vamos a completar tu diario de aprendizaje. Para ello, debes completar los siguientes datos en la sesión de construcción de personajes: </p>
+<ul>
+<li>Integrantes del equipo</li>
+<li>Nombre del o los robots</li>
+<li>Función del robot</li>
+<li>Tipo de servo utilizado</li>
+<li>Tipo de materiales usados. </li>
+<li>Qué ha resultado más complejo del proceso de planificación y construcción del robot.</li>
+<li>Qué habéis aprendido de los compañeros.</li>
+<li>Qué os ha gustado más</li>
+<li>Qué errores habéis tenido y cómo los habéis solucionado. </li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1770716540370-o5uml070x","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>En este apartado vamos a completar tu diario de aprendizaje. Para ello, debes completar los siguientes datos en la sesión de construcción de personajes: </p>\n<ul>\n<li>Integrantes del equipo</li>\n<li>Nombre del o los robots</li>\n<li>Función del robot</li>\n<li>Tipo de servo utilizado</li>\n<li>Tipo de materiales usados. </li>\n<li>Qué ha resultado más complejo del proceso de planificación y construcción del robot.</li>\n<li>Qué habéis aprendido de los compañeros.</li>\n<li>Qué os ha gustado más</li>\n<li>Qué errores habéis tenido y cómo los habéis solucionado. </li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>

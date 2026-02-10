@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-1770710015224-e1m6kcj3e">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v0.0.0-nightly-202602100620">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>4. Modelos</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav">
+<ul>
+<li class="current-page-parent"> <a href="../index.html" class="main-node daddy">Introducción</a>
+<ul class="other-section">
+<li> <a href="../html/1-planificacion.html" class="no-ch">1. Planificación</a>
+</li>
+<li> <a href="../html/2-servos.html" class="no-ch">2. Servos</a>
+</li>
+<li> <a href="../html/3-programacion.html" class="no-ch">3. Programación</a>
+</li>
+<li class="active"> <a href="../html/4-modelos.html" class="active no-ch">4. Modelos</a>
+</li>
+<li> <a href="../html/5-retos-y-personajes.html" class="no-ch">5. Retos y personajes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/manos-a-la-obra.html" class="no-ch">¡Manos a la obra!</a>
+</li>
+</ul>
+</nav><main id="page-1770710015224-e1m6kcj3e" class="page"> 
+<header class="main-header">
+<div class="package-header"><h1 class="package-title">Sesión de construcción de personajes</h1></div>
+<div class="page-header"><h2 class="page-title">4. Modelos</h2></div>
+</header><div id="page-content-page-1770710015224-e1m6kcj3e" class="page-content">
+<article id="block-1770710015224-n8galq1s0" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/play.svg" alt="">
+</div>
+<h1 class="box-title">Programación</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1770710015224-b2wt7fo48" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1770710015224-b2wt7fo48&quot;}">
+<div class="exe-text"><div class="exe-text-template">
+    <p>En esta página vamos a ver varios modelos que reaccionan al sonido para iniciar y continuar el movimiento. Sólo son ejemplos, por lo que puedes fijarte en ellos, utilizarlos igual o probar con otros sensores como la temperatura o la luz. </p>
+</div></div>
+</div>
+</div>
+</article><article id="block-1770710015224-xd8xi4rwb" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Servo continuo</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1770710015224-z4oowbl35" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1770710015224-z4oowbl35&quot;}">
+<div class="exe-text"><div class="exe-text-template">
+    <p>Nuestro servo va a reaccionar al sonido. Siempre que haya un ruido de fondo, el robot se moverá. </p>
+<p>Sin embargo, para mejorar su control hemos utilizado diferentes condicionales: </p>
+<ul>
+<li>Si el nivel de ruido es bajo se moverá más lento y en un sentido de giro</li>
+<li style="text-align: left;">Si el nivel es intermedio se moverá algo más rápido y en otro sentido</li>
+<li>Si el nivel de ruido es alto se moverá a velocidad máxima.</li>
+</ul>
+<p>Recuerda además, que para tener un elemento de seguridad programaremos los botones para que los servos se paren de inmediato.</p>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 300px; text-align: center;">
+<figcaption class="figcaption header"><strong>Robot Micro:Bit con funcionamiento por sonido. </strong></figcaption>
+<video width="300" height="150" controls="controls">
+<source src="../content/resources/Robot Servo continuo.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+<p> </p>
+</div></div>
+</div>
+</div>
+</article><article id="block-1770714835142-42ro5pw1e" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Servo posicional</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1770714835141-aw9ipzsqp" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1770714835141-aw9ipzsqp&quot;}">
+<div class="exe-text"><div class="exe-text-template">
+    <p>En este caso, utilizaremos las mismas condiciones del servo continuo pero utilizando el posicional, por lo que no girará de forma ininterrumpida, si no entre las posiciones que le indiquemos (en grados). </p>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 300px; text-align: center;" id="fig_ras4pvp9m">
+<figcaption class="figcaption header"><strong>Robot Micro:Bit posicionamiento funcionamiento por sonido</strong></figcaption>
+<video width="300" height="150" controls="controls" data-mce-fragment="1">
+<source src="../content/resources/Servo posicional sonido.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+</div></div>
+</div>
+</div>
+</article><article id="block-1770715087121-hsd721ped" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Apertura de puerta por sonido</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1770715087121-dvciiwbgz" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1770715087121-dvciiwbgz&quot;}">
+<div class="exe-text"><div class="exe-text-template">
+    <p>Para programar este robot, utilizaremos un servo posicional y los sensores de sonido. </p>
+<ul>
+<li>Deberemos programar apertura completa cuando detecte el sonido alto con una espera de 5 segundos.</li>
+<li>Programaremos cierre completo cuando el sonido detectado sea bajo.  </li>
+<li>Una C de cerrado y A de abierto deben aparecer en la matriz de LEDs para indicar la posición de la puerta. </li>
+</ul>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 300px; text-align: center;" id="fig_mmo1yrwq1">
+<figcaption class="figcaption header"><strong>Apertura de puerta por sonido</strong></figcaption>
+<video width="300" height="150" controls="controls" data-mce-fragment="1">
+<source src="../content/resources/Robot puerta sonido.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+</div></div>
+</div>
+</div>
+</article><article id="block-1770715431974-twm8u1a5a" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Construcción de robots</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1770715431974-jrqa17cy0" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1770715431974-jrqa17cy0&quot;}">
+<div class="exe-text"><div class="exe-text-template">
+    <p>Los servos pueden dar movimiento a nuestro robot construido de muchos materiales. </p>
+<p>En este caso, puedes ver dos robots que funcionan con servos, construidos con piezas de Lego y con cartón.  </p>
+<ul>
+<li><strong>Robots de Lego</strong></li>
+</ul>
+<figure class="exe-figure exe-media position-center license-CC-BY-NC-SA" style="width: 600px;">
+<figcaption class="figcaption header"><strong>Robot con Lego y Micro:Bit</strong></figcaption>
+<video width="600" height="300" controls="controls">
+<source src="../content/resources/Robot Legos sonido.mp4" /></video>
+<figcaption class="figcaption"><span class="license"><span class="tit">Licencia: </span><a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-NC-SA">CC BY-NC-SA</a></span></figcaption>
+</figure>
+<p><br /></p>
+<ul>
+<li><strong>Robots con cartón</strong>, mira en esta página: </li>
+</ul>
+<p><iframe width="560" height="314" src="https://www.youtube.com/embed/Le7o3ZBz7Gk?si=LjZJ1d5wwxfwdnWv" allowfullscreen="allowfullscreen"></iframe></p>
+<p><br /></p>
+</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/3-programacion.html" title="Previous" class="nav-button nav-button-left"><span>Previous</span></a>
+<a href="../html/5-retos-y-personajes.html" title="Next" class="nav-button nav-button-right"><span>Next</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0 (BY-SA)</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>

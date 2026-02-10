@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-page-mlg9687u-xa3atyza3">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v0.0.0-nightly-202602100620">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>2. Servos</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav">
+<ul>
+<li class="current-page-parent"> <a href="../index.html" class="main-node daddy">Introducción</a>
+<ul class="other-section">
+<li> <a href="../html/1-planificacion.html" class="no-ch">1. Planificación</a>
+</li>
+<li class="active"> <a href="../html/2-servos.html" class="active no-ch">2. Servos</a>
+</li>
+<li> <a href="../html/3-programacion.html" class="no-ch">3. Programación</a>
+</li>
+<li> <a href="../html/4-modelos.html" class="no-ch">4. Modelos</a>
+</li>
+<li> <a href="../html/5-retos-y-personajes.html" class="no-ch">5. Retos y personajes</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/manos-a-la-obra.html" class="no-ch">¡Manos a la obra!</a>
+</li>
+</ul>
+</nav><main id="page-mlg9687u-xa3atyza3" class="page"> 
+<header class="main-header">
+<div class="package-header"><h1 class="package-title">Sesión de construcción de personajes</h1></div>
+<div class="page-header"><h2 class="page-title">2. Servos</h2></div>
+</header><div id="page-content-page-mlg9687u-xa3atyza3" class="page-content">
+<article id="block-1770643568272-6o7a84532" class="box">
+<header class="box-head">
+<div class="box-icon exe-icon">
+<img src="../theme/icons/interactive.svg" alt="">
+</div>
+<h1 class="box-title">Placa y componentes</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1770643568272-bp1eb8ce9" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1770643568272-bp1eb8ce9&quot;}">
+<div class="exe-text"><div class="exe-text-template">
+    <p>Micro:Bit es una <strong>placa de programación</strong> muy sencilla que tiene incorporados muchos sensores y actuadores y que permite conectar otros componentes. </p>
+<p><img src="../content/resources/Captura de pantalla 2026-02-10 083919.jpg" width="329" height="143" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>En nuestro caso, hoy programaremos u<strong>n componente llamado servomotor</strong> que nos permite realizar movimientos en la vida real programados por la placa de Micro:Bit. </p>
+<p>Existen dos tipos de servos: </p>
+<ul>
+<li><strong>Servos de rotación continua:</strong> permiten girar de forma completa e ininterrumpida como las aspas de un helicóptero. </li>
+<li><strong>Servos de posición:</strong> nos permiten controlar el movimiento de una posición a otra, medida en ángulos. Por ejemplo, nos permite realizar la apertura de una puerta que reacciona a distintos sensores. </li>
+</ul>
+<p><img src="../content/resources/Captura de pantalla 2026-02-10 084218.jpg" width="351" height="235" alt="Imagen de Servomotor" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><br /></p>
+<p style="text-align: center;"><strong>IMPORTANTE</strong>: Los servos no pueden ser forzados porque se estropean, si quieres conocer en qué posición está tu servo, puedes utilizar el <a href="https://makecode.microbit.org/S85415-47518-55029-48333" title="Programa MakeCode controlador de posicionamiento" target="_blank" id="link_3" rel="noopener">siguiente programa.</a> </p>
+<p>Además, la <strong>conexión entre la placa y los servos es importante</strong> porque, aunque es sencilla, puede ocasionar diferentes problemas por los que nuestro robot puede no funcionar como nosotros queremos: </p>
+<ol>
+<li>Los tres cables del servo deben ir conectados a la Micro:Bit, a través de un adaptador o de cables cocodrilo.</li>
+<li>Los tres cables son de color negro rojo y amarillo. 
+<ol>
+<li>El <span style="text-decoration: underline;">cable negro</span> debe ir al <span style="text-decoration: underline;">PIN GND</span> (ground) de la Micro:Bit. Esta entrada es la toma de tierra, o negativo y nos permite cerrar el circuito. </li>
+<li>El <span style="text-decoration: underline;">cable rojo</span> (situado en la posición intermedia) es el de potencia, y debe ir conectado al<span style="text-decoration: underline;"> PIN 3V.</span> </li>
+<li>Por último, el <span style="text-decoration: underline;">cable amarillo</span> (en el extremo contrario al GND), debe conectarse a la placa en el PIN para el que hayamos hecho la programación <span style="text-decoration: underline;">(0, 1 o 2)</span>.</li>
+</ol>
+</li>
+</ol>
+<p><img src="../content/resources/Captura de pantalla 2026-02-10 081155.jpg" title="Conexión servo - Micro:Bit" width="474" height="275" alt="Imagen con muestra de cableado" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><strong>Es importante fijarse bien en que la programación en MakeCode y en los pines coincida para que todo funcione correctamente.</strong> </p>
+</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/1-planificacion.html" title="Previous" class="nav-button nav-button-left"><span>Previous</span></a>
+<a href="../html/3-programacion.html" title="Next" class="nav-button nav-button-right"><span>Next</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0 (BY-SA)</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
